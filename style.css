@@ -1,0 +1,34 @@
+:root  {
+    --brown: #4b2a21;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightyellow;
+    color: #4b2a21;
+    margin: 30px;
+}
+
+a:visited {
+    color: var(--brown);
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    border: 3px solid var(--brown);
+}
+
+ul li,
+ol li {
+   margin: 5px; 
+}
+
+ul li::marker,
+ol li::marker {
+    color: lightcoral;
+}
